@@ -16,7 +16,7 @@
 
                         <div  class="form-group">
                             <label for="content">Content</label>
-                            <textarea class="form-control" value="{{ $blog->content}}" name="content" rows="3"></textarea>
+                            <textarea class="form-control" value="{{ $blog->content}}" name="content" rows="3" readonly></textarea>
                         </div>
 
                         <a href="{{ route('blogs.index') }}" class="btn btn-secondary">Back</a>
